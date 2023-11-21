@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/xiaosong/.nvm/versions/node/v16.20.2/bin/node /usr/local/Cellar/yarn/1.22.17_2/libexec/bin/yarn.js add webpoack webpack-cli -D
+
+PATH: 
+  /usr/local/opt/sqlite/bin:/Users/xiaosong/.rvm/gems/ruby-2.6.3/bin:/Users/xiaosong/.rvm/gems/ruby-2.6.3@global/bin:/Users/xiaosong/.rvm/rubies/ruby-2.6.3/bin:/usr/local/mongodb/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/xiaosong/.cargo/bin:/Users/xiaosong/.nvm/versions/node/v16.20.2/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/xiaosong/go/bin:/Users/xiaosong/.rvm/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.20.2
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/webpoack: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:67029:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:140883:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:141855:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "ioc-decorator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

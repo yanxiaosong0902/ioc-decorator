@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": true,
+    "target": "ES5",
+    "declaration": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "baseUrl": "./src",
+    "experimentalDecorators": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["src"]
+}
